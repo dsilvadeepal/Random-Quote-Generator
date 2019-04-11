@@ -23,7 +23,7 @@ function addBtn(){
 $(document).ready(function() {
 
   $("#newQuoteBtn").on("click", newQuote);
-  $("#newQuoteBtn").one("click", addBtn);
+  $("#newQuoteBtn").on("click", addBtn);
   $(".quote-container").on("click", "#tweetBtn", sendTweet);
 });
 
